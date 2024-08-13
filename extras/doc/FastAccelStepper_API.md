@@ -453,7 +453,7 @@ reversal first.
   void keepRunning();
   bool isRunningContinuously() { return _rg.isRunningContinuously(); }
 ```
-### runForward() and runBackwards()
+### runForward() and runBackward()
 These commands just let the motor run continuously in one direction.
 If the motor is running in the opposite direction, it will reverse
 return value as with move/moveTo
